@@ -24,7 +24,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-            Expert en Machine Learning, Deep Learning et développement d'applications IA innovantes
+            Passionné par le Machine Learning et le Deep Learning appliqués à la santé
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center pt-4">
