@@ -6,18 +6,18 @@ import project2 from "@/assets/project-2.jpg";
 
 const projects = [
   {
-    title: "DeFi Analytics Platform",
-    description: "Plateforme d'analyse de protocoles DeFi avec machine learning pour la prédiction des rendements et l'évaluation des risques. Intégration avec Ethereum et visualisation en temps réel.",
+    title: "Survival Analytics",
+    description: "Système de Machine Learning pour l'analyse et la prédiction du taux de survie de patients atteints de cancer du cerveau. Utilisation d'algorithmes de régression et de classification pour identifier les facteurs de risque et estimer les probabilités de survie.",
     image: project1,
-    tags: ["Python", "Web3.py", "Scikit-learn", "React", "Solidity"],
+    tags: ["Python", "Scikit-learn", "Pandas", "Survival Analysis", "XGBoost"],
     github: "#",
     demo: "#",
   },
   {
-    title: "NFT Marketplace Intelligence",
-    description: "Application d'analyse de marché NFT utilisant le traitement du langage naturel et l'analyse de sentiment pour identifier les tendances et les opportunités d'investissement.",
+    title: "DiagMind.AI",
+    description: "Application de Deep Learning pour l'aide au diagnostic en imagerie médicale. Détection et classification automatique des tumeurs cérébrales à partir d'IRM avec réseau de neurones convolutionnels (CNN) et visualisation des zones d'intérêt.",
     image: project2,
-    tags: ["TensorFlow", "NLP", "IPFS", "Next.js", "Smart Contracts"],
+    tags: ["PyTorch", "CNN", "Medical Imaging", "OpenCV", "TensorFlow"],
     github: "#",
     demo: "#",
   },
@@ -29,10 +29,10 @@ const Projects = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Projets <span className="bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">Alyra</span>
+            Projets <span className="bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">Phares</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Projets de soutenance - Formation développeur Blockchain
+            Machine Learning & Deep Learning en santé
           </p>
         </div>
         
