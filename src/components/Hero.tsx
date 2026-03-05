@@ -38,9 +38,11 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center pt-4">
-            <Button variant="hero" size="lg">
-              <Mail className="mr-2 h-5 w-5" />
-              Me contacter
+            <Button variant="hero" size="lg" asChild>
+              <a href="mailto:matthieu.graziani007@gmail.com">
+                <Mail className="mr-2 h-5 w-5" />
+                Me contacter
+              </a>
             </Button>
             <Button variant="outline" size="lg" onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>
               Voir mes projets
