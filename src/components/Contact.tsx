@@ -18,7 +18,7 @@ const Contact = () => {
         <Card className="p-8 bg-card border-border">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <a 
-              href="mailto:contact@example.com"
+              href="mailto:matthieu.graziani007@gmail.com"
               className="flex items-center gap-4 p-4 bg-muted/50 rounded-lg hover:bg-primary/10 hover:border-primary/20 border border-transparent transition-all"
             >
               <div className="p-3 bg-primary/10 rounded-lg">
@@ -26,12 +26,12 @@ const Contact = () => {
               </div>
               <div>
                 <div className="font-semibold">Email</div>
-                <div className="text-sm text-muted-foreground">contact@example.com</div>
+                <div className="text-sm text-muted-foreground">matthieu.graziani007@gmail.com</div>
               </div>
             </a>
             
             <a 
-              href="#"
+              href="https://www.linkedin.com/in/matthieu-graziani-4190b526b" target="_blank" rel="noopener noreferrer"
               className="flex items-center gap-4 p-4 bg-muted/50 rounded-lg hover:bg-primary/10 hover:border-primary/20 border border-transparent transition-all"
             >
               <div className="p-3 bg-primary/10 rounded-lg">
