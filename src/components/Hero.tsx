@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import avatar from "@/assets/avatar.jpg";
 
 const Hero = () => {
   return (
@@ -13,8 +14,17 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-1000">
+          <div className="relative w-32 h-32 mx-auto mb-6">
+            <img
+              src={avatar}
+              alt="Photo de profil"
+              className="w-32 h-32 rounded-full object-cover border-4 border-primary/30 shadow-lg shadow-primary/20"
+            />
+            <div className="absolute inset-0 rounded-full ring-2 ring-primary/50 ring-offset-2 ring-offset-background" />
+          </div>
+          
           <div className="inline-block">
-            <div className="px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-sm text-primary mb-6">
+            <div className="px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-sm text-primary">
               Développeur IA & Data Scientist
             </div>
           </div>
