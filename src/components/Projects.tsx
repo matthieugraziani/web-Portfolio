@@ -10,7 +10,7 @@ const projects = [
     description: "Système de Machine Learning pour l'analyse et la prédiction du taux de survie de patients atteints de cancer du cerveau. Utilisation d'algorithmes de régression et de classification pour identifier les facteurs de risque et estimer les probabilités de survie.",
     image: project1,
     tags: ["Python", "Scikit-learn", "Pandas", "Survival Analysis", "XGBoost"],
-    github: "#",
+    github: "https://github.com/matthieugraziani/ML-Survival-Analysis",
     demo: "#",
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     description: "Application de Deep Learning pour l'aide au diagnostic en imagerie médicale. Détection et classification automatique des tumeurs cérébrales à partir d'IRM avec réseau de neurones convolutionnels (CNN) et visualisation des zones d'intérêt.",
     image: project2,
     tags: ["PyTorch", "CNN", "Medical Imaging", "OpenCV", "TensorFlow"],
-    github: "#",
+    github: "https://github.com/matthieugraziani/Streamlit-DiagMind.AI",
     demo: "#",
   },
 ];
@@ -73,9 +73,11 @@ const Projects = () => {
                     <ExternalLink className="mr-2 h-4 w-4" />
                     Demo
                   </Button>
-                  <Button variant="outline" size="sm" className="flex-1">
-                    <Github className="mr-2 h-4 w-4" />
-                    Code
+                  <Button variant="outline" size="sm" className="flex-1" asChild>
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Github className="mr-2 h-4 w-4" />
+                      Code
+                    </a>
                   </Button>
                 </div>
               </div>
