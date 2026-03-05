@@ -42,7 +42,7 @@ const Hero = () => {
               <Mail className="mr-2 h-5 w-5" />
               Me contacter
             </Button>
-            <Button variant="outline" size="lg">
+            <Button variant="outline" size="lg" onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>
               Voir mes projets
             </Button>
           </div>
