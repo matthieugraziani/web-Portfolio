@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github } from "lucide-react";
+import { Github } from "lucide-react";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 
@@ -11,7 +11,6 @@ const projects = [
     image: project1,
     tags: ["Python", "Scikit-learn", "Pandas", "Survival Analysis", "XGBoost"],
     github: "https://github.com/matthieugraziani/ML-Survival-Analysis",
-    demo: "#",
   },
   {
     title: "DiagMind.AI",
@@ -19,7 +18,7 @@ const projects = [
     image: project2,
     tags: ["PyTorch", "CNN", "Medical Imaging", "OpenCV", "TensorFlow"],
     github: "https://github.com/matthieugraziani/Streamlit-DiagMind.AI",
-    demo: "#",
+    
   },
 ];
 
@@ -69,11 +68,7 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-3 pt-4">
-                  <Button variant="hero" size="sm" className="flex-1">
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    Demo
-                  </Button>
-                  <Button variant="outline" size="sm" className="flex-1" asChild>
+                  <Button variant="outline" size="sm" className="w-full" asChild>
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
                       <Github className="mr-2 h-4 w-4" />
                       Code
