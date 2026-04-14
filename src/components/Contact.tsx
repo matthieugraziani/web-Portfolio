@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Mail, Linkedin, Github, MessageSquare } from "lucide-react";
+import { Mail, Linkedin, MessageSquare } from "lucide-react";
 
 const Contact = () => {
   return (
