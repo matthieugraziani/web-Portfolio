@@ -43,18 +43,6 @@ const Contact = () => {
               </div>
             </a>
             
-            <a 
-              href="#"
-              className="flex items-center gap-4 p-4 bg-muted/50 rounded-lg hover:bg-primary/10 hover:border-primary/20 border border-transparent transition-all"
-            >
-              <div className="p-3 bg-primary/10 rounded-lg">
-                <Github className="h-6 w-6 text-primary" />
-              </div>
-              <div>
-                <div className="font-semibold">GitHub</div>
-                <div className="text-sm text-muted-foreground">Mes repositories</div>
-              </div>
-            </a>
             
             <a 
               href="#"
