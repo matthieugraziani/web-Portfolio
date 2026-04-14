@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Github } from "lucide-react";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
+import project3 from "@/assets/project-3.jpg";
+import project4 from "@/assets/project-4.jpg";
 
 const projects = [
   {
@@ -18,7 +20,20 @@ const projects = [
     image: project2,
     tags: ["PyTorch", "CNN", "Medical Imaging", "OpenCV", "TensorFlow"],
     github: "https://github.com/matthieugraziani/Streamlit-DiagMind.AI",
-    
+  },
+  {
+    title: "Pipeline BDPM",
+    description: "Pipeline de données pour la Base de Données Publique des Médicaments (BDPM). Extraction, transformation et chargement automatisé des données pharmaceutiques pour analyse et exploitation structurée.",
+    image: project3,
+    tags: ["Python", "ETL", "SQL", "Data Pipeline", "Pandas"],
+    github: "https://github.com/matthieugraziani/Bdpm-Database",
+  },
+  {
+    title: "Veille Technologique",
+    description: "Système de veille technologique automatisé pour suivre les dernières avancées en IA et Data Science. Agrégation et analyse de sources multiples pour rester à jour sur les tendances du domaine.",
+    image: project4,
+    tags: ["Python", "Web Scraping", "NLP", "Automation"],
+    github: "https://github.com/matthieugraziani/Veille",
   },
 ];
 
