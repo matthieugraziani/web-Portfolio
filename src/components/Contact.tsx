@@ -44,18 +44,6 @@ const Contact = () => {
             </a>
             
             
-            <a 
-              href="#"
-              className="flex items-center gap-4 p-4 bg-muted/50 rounded-lg hover:bg-primary/10 hover:border-primary/20 border border-transparent transition-all"
-            >
-              <div className="p-3 bg-primary/10 rounded-lg">
-                <MessageSquare className="h-6 w-6 text-primary" />
-              </div>
-              <div>
-                <div className="font-semibold">Discord</div>
-                <div className="text-sm text-muted-foreground">Alyra Community</div>
-              </div>
-            </a>
           </div>
           
           <div className="mt-8 text-center">
