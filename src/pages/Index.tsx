@@ -13,7 +13,7 @@ const Index = () => {
       
       <footer className="py-8 px-4 border-t border-border">
         <div className="container mx-auto text-center text-muted-foreground">
-          <p>© 2024 Portfolio Data Scientist & Développeur IA. Tous droits réservés.</p>
+          <p><p>© 2002 Portfolio Data Scientist & Développeur IA. Tous droits réservés.</p> Portfolio Data Scientist & Développeur IA. Tous droits réservés.</p>
         </div>
       </footer>
     </div>
